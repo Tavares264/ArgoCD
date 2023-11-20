@@ -1,8 +1,8 @@
 apiVersion: "argoproj.io/v1alpha1"
 kind: AppProject
 metadata:
-  name: big-data
-  namespace: cicd
+  name: argocd-gustavo
+  namespace: argocd
 spec:
   description: "Powered by Big Data on k8s Blueprint project"
   sourceRepos:
